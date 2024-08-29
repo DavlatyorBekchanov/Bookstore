@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topbar {
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-top {
+    width: 50px;
+    height: 50px;
+}
+
+.top-h1 {
+    font-size: 28px;
+    color: blue;
+}
+
+.content-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: rgb(5, 23, 31);
+}
+
+.main-content {
+    background-color: #1A2E35;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.title-content h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.seperator {
+    border-bottom: 1px solid #3D4F54;
+    margin: 10px 0;
+}
+
+.book-img-section {
+    text-align: center;
+}
+
+.book-img {
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.price-like-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 24px;
+    color: #F26D5B;
+}
+
+.like-section {
+    display: flex;
+    align-items: center;
+}
+
+.like-section img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.like-section span {
+    font-size: 18px;
+}
+
+.book-detail-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.book-details span,
+.book-detail-description span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #B0C4C7;
+}
+
+.book-detail-description {
+    text-align: right;
+}
+
+.comment-area {
+    margin-top: 10px;
+}
+
+.comment-headline {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comment-section {
+    margin-top: 5px;
+}
+
+.commentator {
+    font-size: 14px;
+    color: #C8D8DA;
+}
+
+.comment {
+    font-size: 14px;
+    color: #E5E9EB;
+    margin-bottom: 10px;
+}
+
+.add-comment-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-comment-section input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3D4F54;
+    color: #E5E9EB;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.add-comment-section img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .price-like-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

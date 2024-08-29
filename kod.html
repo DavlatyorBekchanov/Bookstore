@@ -1,0 +1,50 @@
+<!-- asosiy bulim -->
+<div class="main-card">
+    <!-- Titel bulimi -->
+    <div class="title-section">
+        <h1></h1>
+    </div>
+    <!--  ajartib turuvchi chiziq -->
+    <div class="seperator"></div>
+    <!-- kitobni rasmi qism -->
+    <div class="book-img-section">
+        <img class="book-img" src="./assets/img/a-book-1699641_640.png" alt="">
+    </div>
+    <!-- 2chi ajratib turuvchi chiziq -->
+    <div class="seperator"></div>
+    <!-- like va baho  bulimi -->
+    <div class="price-like-section">
+        <span class="price"></span>
+        <div class="like-section">
+            <span></span>
+            <img onclick="likeOrDislike()" id="likeImg" src="" alt="">
+        </div>
+    </div>
+    <!-- kitob qismlari , avtor, chiqish yili ganri -->
+    <div class="book-detail-section">
+        <div class="book-details">
+            <span>Author</span>
+            <span>Erscheinungsjahr</span>
+            <span>Genre</span>
+        </div>
+        <div class="book-detail-description">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- 3chi ajartib turuvchi qism  -->
+    <div class="seperator"></div>
+    <!-- kommentariya qismi -->
+    <div class="comment-area">
+        <span id="commentHeadline" class="comment-headline">Kommentare:</span>
+        <div class="comment-section">
+            <div id="commentatorSection" class="commentator"></div>
+            <div id="commentSection" class="comment"></div>
+        </div>
+    </div>
+    <!-- kommentariya qushish qismi -->
+    <div class="add-comment-section">
+        <input id="inputField" placeholder="Schreibe deinen Kommentar..." type="text">
+        <img onclick="addComment()" src="./assets/img/paper-plane-regular (1).svg" alt="">
+    </div>
